@@ -1,0 +1,3 @@
+import win10toast
+toast = win10toast.ToastNotifier()
+toast.show_toast("STATUS ZONE AVINASH",'hello sir avinash gupta i subscribr your channel',duration=10)
