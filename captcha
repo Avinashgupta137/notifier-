@@ -1,0 +1,5 @@
+from captcha.image import ImageCaptcha
+import random
+img = ImageCaptcha()
+randomNum = random.randint(1000,9999)
+saveImage = img.write(str(randomNum),"captcha2.png")
